@@ -1,0 +1,5 @@
+<% @quotes.each do |quote| %>
+    <p><%= quote.content %></p>
+<% end %>
+
+<%= link_to 'New quote', new_quote_path %>

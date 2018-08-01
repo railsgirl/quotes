@@ -10,6 +10,18 @@
   </head>
 
   <body>
+
+    <nav class="navbar navbar-dark bg-primary">
+      <%= link_to 'Quotes', root_path, class: 'navbar-brand'%>
+    </nav>
+
+
+    <div class="container">
+      
+      <p class="success"><%= success %></p>
+
     <%= yield %>
+
+    </div>
   </body>
 </html>
